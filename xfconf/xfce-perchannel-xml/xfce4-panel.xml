@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="uint" value="1">
+    <property name="panel-0" type="empty">
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="background-alpha" type="uint" value="80"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+      </property>
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="24"/>
+      <property name="span-monitors" type="bool" value="false"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="button-icon" type="string" value="xfce4-panel-menu"/>
+      <property name="button-title" type="string" value="Applications"/>
+      <property name="custom-menu" type="bool" value="false"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+    </property>
+    <property name="plugin-10" type="string" value="clock">
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="show-frame" type="bool" value="true"/>
+      <property name="size-max" type="uint" value="22"/>
+      <property name="style" type="uint" value="0"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="timezone" type="string" value="Asia/Kolkata"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="grouping" type="uint" value="0"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="0"/>
+      <property name="show-button-type" type="int" value="1"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
+      <property name="window-scrolling" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="systray">
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="menu-is-primary" type="bool" value="true"/>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="size-max" type="uint" value="22"/>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="gigolo"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="network"/>
+        <value type="string" value="bluetooth disabled"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="8761b310-c67e-11ee-894c-431871959a11"/>
+        <value type="string" value="5b28e610-c67e-11ee-aa82-3738296dd82f"/>
+        <value type="string" value="422f2930-c67e-11ee-a2b0-13694d4ecf5e"/>
+        <value type="string" value="3110fd40-c67e-11ee-8ae3-051b55351ddc"/>
+        <value type="string" value="07106d00-c67e-11ee-9814-77c98d0f01cc"/>
+        <value type="string" value="01bdd0e0-c67e-11ee-b5b9-e51010035b22"/>
+        <value type="string" value="664ae4e0-c67d-11ee-911c-1f437563ff03"/>
+        <value type="string" value="2e9b5ed0-c67d-11ee-96c0-c9c99c7812b4"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="nm-applet"/>
+      </property>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="blueman"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="notification-plugin"/>
+    <property name="plugin-6" type="string" value="indicator">
+      <property name="align-left" type="bool" value="false"/>
+      <property name="mode-whitelist" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+      <property name="known-indicators" type="array">
+        <value type="string" value="libayatana-application.so"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="enable-mpris" type="bool" value="true"/>
+      <property name="enable-multimedia-keys" type="bool" value="true"/>
+      <property name="mixer-command" type="string" value="pavucontrol"/>
+      <property name="mpris-players" type="string" value=";chromium.instance12789;chromium.instance2098;chromium.instance3059;chromium.instance6139;parole;rhythmbox"/>
+      <property name="show-notifications" type="bool" value="true"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>
